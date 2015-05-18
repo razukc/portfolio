@@ -77,25 +77,25 @@ a.btn {
 		width: 24px
 	 }
 
-.github {background-image: url(/assets/github-edc899c60c7b3afd0c458e648197f578.svg);background-position:center center}
+.github {background-image: url(image-path('github.svg'));background-position:center center}
 
-.linkedin {background-image: url(/assets/linkedin-be22eb82414f9f637debbe2d64c301cb.svg);background-position:center center}
+.linkedin {background-image: url(image-path('linkedin.svg'));background-position:center center}
 
-.tumblr {background-image: url(/tumblr.svg);background-position:center center}
+.tumblr {background-image: url(image-path('tumblr.svg'));background-position:center center}
 
-.twitter {background-image: url(/assets/twitter-8c095eaee58362a46d56e3f07b50b23b.svg);background-position:center center}
+.twitter {background-image: url(image-path('twitter.svg'));background-position:center center}
 
-.youtube {background-image: url(/youtube.svg);background-position:center center}
+.youtube {background-image: url(image-path('youtube.svg'));background-position:center center}
 
-.vimeo {background-image: url(/vimeo.svg);background-position:center center}
+.vimeo {background-image: url(image-path('vimeo.svg'));background-position:center center}
 
-.instagram {background-image: url(/assets/instagram-057a090ac0e0184c68efc07e412eec3b.svg);background-position:center center}
+.instagram {background-image: url(image-path('instagram.svg'));background-position:center center}
 
-.facebook {background-image: url(/assets/facebook-70848fad6bf158b9a52e47d9bc956b8a.svg);background-position:center center}
+.facebook {background-image: url(image-path('facebook.svg'));background-position:center center}
 
-.pinterest {background-image: url(/pinterest.svg);background-position:center center}
+.pinterest {background-image: url(image-path('pinterest.svg'));background-position:center center}
 
-.gplus {background-image: url(/assets/gplus-b3a33145641e08e048cd10ed0ece59ce.svg);background-position:center center}
+.gplus {background-image: url(image-path('gplus.svg'));background-position:center center}
 
 .main .container {margin: 80px 0}
 
@@ -115,7 +115,7 @@ a.btn:hover,.nav li a:hover,.nav-btn:hover {
  }
 
 .home .jumbotron {
-	background: assets-path 'home-db103bf75e724b89102c607792424914.jpg' center center;
+	background: url(image-path('home.jpg')) center center;
 	background-size: cover;
 	min-height: 600px;
 	width: 100%
