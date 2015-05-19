@@ -1,3 +1,3 @@
 $(function() {
-    $('.slideshow').unslider();
+    $('.slideshow-container').unslider();
 });
